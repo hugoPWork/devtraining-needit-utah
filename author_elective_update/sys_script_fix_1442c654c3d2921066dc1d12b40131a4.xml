@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <before>false</before>
+        <description/>
+        <name>Add Needit Records</name>
+        <record_for_rollback>true</record_for_rollback>
+        <script><![CDATA[var needit = new GlideRecord('x_58872_needit_needit');
+needit.newRecord();
+gs.print(inc.opened_at.getDisplayValue());]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 01:08:55</sys_created_on>
+        <sys_id>1442c654c3d2921066dc1d12b40131a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Needit Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_fix_1442c654c3d2921066dc1d12b40131a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 01:08:55</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>98b2d8d9dbe271d8199b1729139619f5</instance_id>
+        <instance_name>dev212242</instance_name>
+        <name>sys_script_fix_1442c654c3d2921066dc1d12b40131a4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;name&gt;Add Needit Records&lt;/name&gt;&lt;record_for_rollback&gt;true&lt;/record_for_rollback&gt;&lt;script&gt;&lt;![CDATA[var needit = new GlideRecord('x_58872_needit_needit');
+needit.newRecord();
+gs.print(inc.opened_at.getDisplayValue());]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-12-02 01:08:55&lt;/sys_created_on&gt;&lt;sys_id&gt;1442c654c3d2921066dc1d12b40131a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Add Needit Records&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_1442c654c3d2921066dc1d12b40131a4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-12-02 01:08:55&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1567953026</payload_hash>
+        <record_name>Add Needit Records</record_name>
+        <reverted_from/>
+        <source>29eb73c2c34e121066dc1d12b40131b4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 01:08:55</sys_created_on>
+        <sys_id>ea828a54c3d2921066dc1d12b40131ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19384e9d01d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 01:08:55</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>ae828a5470d2921006f83f6d77ff73ad</update_guid>
+        <update_guid_history>ae828a5470d2921006f83f6d77ff73ad:-1567953026</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 01:10:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>0164bdcc621d450e800acc97cf822764</sys_id>
+        <sys_metadata>1442c654c3d2921066dc1d12b40131a4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Needit Records</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_fix_1442c654c3d2921066dc1d12b40131a4</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_1442c654c3d2921066dc1d12b40131a4">ea828a54c3d2921066dc1d12b40131ae</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 01:10:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
